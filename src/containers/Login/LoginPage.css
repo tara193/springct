@@ -1,0 +1,51 @@
+.Login {
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border: 1px solid #eee;
+    padding: 10px;
+    box-shadow: 0 2px 3px #ccc;
+}
+
+.Lable {
+    display: block;
+    /* margin-bottom: 8px; */
+    font-weight: bold;
+}
+
+.Form {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Input {
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font:inherit;
+    padding: 6px 10px;
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+
+}
+
+.Input:invalid{
+    border: 2px;
+}
+
+.Input:invalid:required{
+    border: 2px dashed red;
+
+}
+.Input:valid{
+    border: 2px solid #ccc;
+}
+
+@media(min-width:600px){
+    .Login{
+        width: 500px;
+    }
+}
